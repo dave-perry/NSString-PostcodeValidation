@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED3F20C513C8D0A000515475 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3F20C413C8D0A000515475 /* UIKit.framework */; };
+		ED3F20C713C8D0A000515475 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3F20C613C8D0A000515475 /* Foundation.framework */; };
+		ED3F20C913C8D0A000515475 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3F20C813C8D0A000515475 /* CoreGraphics.framework */; };
+		ED3F20CF13C8D0A000515475 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED3F20CD13C8D0A000515475 /* InfoPlist.strings */; };
+		ED3F20D213C8D0A000515475 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3F20D113C8D0A000515475 /* main.m */; };
+		ED3F20D513C8D0A000515475 /* PostcodeValidationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3F20D413C8D0A000515475 /* PostcodeValidationAppDelegate.m */; };
+		ED3F20D813C8D0A000515475 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3F20D613C8D0A000515475 /* MainWindow.xib */; };
+		ED3F20DB13C8D0A000515475 /* PostcodeValidationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3F20DA13C8D0A000515475 /* PostcodeValidationViewController.m */; };
+		ED3F20DE13C8D0A000515475 /* PostcodeValidationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3F20DC13C8D0A000515475 /* PostcodeValidationViewController.xib */; };
+		ED3F20E513C8D0A000515475 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3F20C413C8D0A000515475 /* UIKit.framework */; };
+		ED3F20E613C8D0A000515475 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3F20C613C8D0A000515475 /* Foundation.framework */; };
+		ED3F20E713C8D0A000515475 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3F20C813C8D0A000515475 /* CoreGraphics.framework */; };
+		ED3F20EF13C8D0A000515475 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED3F20ED13C8D0A000515475 /* InfoPlist.strings */; };
+		ED3F20F213C8D0A000515475 /* PostcodeValidationTests.h in Resources */ = {isa = PBXBuildFile; fileRef = ED3F20F113C8D0A000515475 /* PostcodeValidationTests.h */; };
+		ED3F20F413C8D0A000515475 /* PostcodeValidationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3F20F313C8D0A000515475 /* PostcodeValidationTests.m */; };
+		ED3F210013C8D0F900515475 /* NSString+PostcodeValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3F20FF13C8D0F900515475 /* NSString+PostcodeValidation.m */; };
+		ED3F210113C8D0F900515475 /* NSString+PostcodeValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3F20FF13C8D0F900515475 /* NSString+PostcodeValidation.m */; };
+		ED3F213313C8D19900515475 /* PostcodesA.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F211D13C8D19900515475 /* PostcodesA.plist */; };
+		ED3F213413C8D19900515475 /* PostcodesB.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F211E13C8D19900515475 /* PostcodesB.plist */; };
+		ED3F213513C8D19900515475 /* PostcodesC.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F211F13C8D19900515475 /* PostcodesC.plist */; };
+		ED3F213613C8D19900515475 /* PostcodesD.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F212013C8D19900515475 /* PostcodesD.plist */; };
+		ED3F213713C8D19900515475 /* PostcodesE.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F212113C8D19900515475 /* PostcodesE.plist */; };
+		ED3F213813C8D19900515475 /* PostcodesF.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F212213C8D19900515475 /* PostcodesF.plist */; };
+		ED3F213913C8D19900515475 /* PostcodesG.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F212313C8D19900515475 /* PostcodesG.plist */; };
+		ED3F213A13C8D19900515475 /* PostcodesH.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F212413C8D19900515475 /* PostcodesH.plist */; };
+		ED3F213B13C8D19900515475 /* PostcodesI.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F212513C8D19900515475 /* PostcodesI.plist */; };
+		ED3F213C13C8D19900515475 /* PostcodesK.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F212613C8D19900515475 /* PostcodesK.plist */; };
+		ED3F213D13C8D19900515475 /* PostcodesL.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F212713C8D19900515475 /* PostcodesL.plist */; };
+		ED3F213E13C8D19900515475 /* PostcodesM.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F212813C8D19900515475 /* PostcodesM.plist */; };
+		ED3F213F13C8D19900515475 /* PostcodesN.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F212913C8D19900515475 /* PostcodesN.plist */; };
+		ED3F214013C8D19900515475 /* PostcodesO.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F212A13C8D19900515475 /* PostcodesO.plist */; };
+		ED3F214113C8D19900515475 /* PostcodesP.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F212B13C8D19900515475 /* PostcodesP.plist */; };
+		ED3F214213C8D19900515475 /* PostcodesR.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F212C13C8D19900515475 /* PostcodesR.plist */; };
+		ED3F214313C8D19900515475 /* PostcodesS.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F212D13C8D19900515475 /* PostcodesS.plist */; };
+		ED3F214413C8D19900515475 /* PostcodesT.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F212E13C8D19900515475 /* PostcodesT.plist */; };
+		ED3F214513C8D19900515475 /* PostcodesU.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F212F13C8D19900515475 /* PostcodesU.plist */; };
+		ED3F214613C8D19900515475 /* PostcodesW.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F213013C8D19900515475 /* PostcodesW.plist */; };
+		ED3F214713C8D19900515475 /* PostcodesY.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F213113C8D19900515475 /* PostcodesY.plist */; };
+		ED3F214813C8D19900515475 /* PostcodesZ.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F213213C8D19900515475 /* PostcodesZ.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED3F20E813C8D0A000515475 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED3F20B713C8D0A000515475 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED3F20BF13C8D0A000515475;
+			remoteInfo = PostcodeValidation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED3F20C013C8D0A000515475 /* PostcodeValidation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostcodeValidation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3F20C413C8D0A000515475 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED3F20C613C8D0A000515475 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED3F20C813C8D0A000515475 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED3F20CC13C8D0A000515475 /* PostcodeValidation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PostcodeValidation-Info.plist"; sourceTree = "<group>"; };
+		ED3F20CE13C8D0A000515475 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED3F20D013C8D0A000515475 /* PostcodeValidation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PostcodeValidation-Prefix.pch"; sourceTree = "<group>"; };
+		ED3F20D113C8D0A000515475 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED3F20D313C8D0A000515475 /* PostcodeValidationAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostcodeValidationAppDelegate.h; sourceTree = "<group>"; };
+		ED3F20D413C8D0A000515475 /* PostcodeValidationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostcodeValidationAppDelegate.m; sourceTree = "<group>"; };
+		ED3F20D713C8D0A000515475 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		ED3F20D913C8D0A000515475 /* PostcodeValidationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostcodeValidationViewController.h; sourceTree = "<group>"; };
+		ED3F20DA13C8D0A000515475 /* PostcodeValidationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostcodeValidationViewController.m; sourceTree = "<group>"; };
+		ED3F20DD13C8D0A000515475 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PostcodeValidationViewController.xib; sourceTree = "<group>"; };
+		ED3F20E413C8D0A000515475 /* PostcodeValidationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcodeValidationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3F20EC13C8D0A000515475 /* PostcodeValidationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PostcodeValidationTests-Info.plist"; sourceTree = "<group>"; };
+		ED3F20EE13C8D0A000515475 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED3F20F013C8D0A000515475 /* PostcodeValidationTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PostcodeValidationTests-Prefix.pch"; sourceTree = "<group>"; };
+		ED3F20F113C8D0A000515475 /* PostcodeValidationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostcodeValidationTests.h; sourceTree = "<group>"; };
+		ED3F20F313C8D0A000515475 /* PostcodeValidationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostcodeValidationTests.m; sourceTree = "<group>"; };
+		ED3F20FE13C8D0F900515475 /* NSString+PostcodeValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PostcodeValidation.h"; sourceTree = "<group>"; };
+		ED3F20FF13C8D0F900515475 /* NSString+PostcodeValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PostcodeValidation.m"; sourceTree = "<group>"; };
+		ED3F211D13C8D19900515475 /* PostcodesA.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesA.plist; path = Postcodes/PostcodesA.plist; sourceTree = "<group>"; };
+		ED3F211E13C8D19900515475 /* PostcodesB.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesB.plist; path = Postcodes/PostcodesB.plist; sourceTree = "<group>"; };
+		ED3F211F13C8D19900515475 /* PostcodesC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesC.plist; path = Postcodes/PostcodesC.plist; sourceTree = "<group>"; };
+		ED3F212013C8D19900515475 /* PostcodesD.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesD.plist; path = Postcodes/PostcodesD.plist; sourceTree = "<group>"; };
+		ED3F212113C8D19900515475 /* PostcodesE.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesE.plist; path = Postcodes/PostcodesE.plist; sourceTree = "<group>"; };
+		ED3F212213C8D19900515475 /* PostcodesF.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesF.plist; path = Postcodes/PostcodesF.plist; sourceTree = "<group>"; };
+		ED3F212313C8D19900515475 /* PostcodesG.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesG.plist; path = Postcodes/PostcodesG.plist; sourceTree = "<group>"; };
+		ED3F212413C8D19900515475 /* PostcodesH.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesH.plist; path = Postcodes/PostcodesH.plist; sourceTree = "<group>"; };
+		ED3F212513C8D19900515475 /* PostcodesI.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesI.plist; path = Postcodes/PostcodesI.plist; sourceTree = "<group>"; };
+		ED3F212613C8D19900515475 /* PostcodesK.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesK.plist; path = Postcodes/PostcodesK.plist; sourceTree = "<group>"; };
+		ED3F212713C8D19900515475 /* PostcodesL.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesL.plist; path = Postcodes/PostcodesL.plist; sourceTree = "<group>"; };
+		ED3F212813C8D19900515475 /* PostcodesM.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesM.plist; path = Postcodes/PostcodesM.plist; sourceTree = "<group>"; };
+		ED3F212913C8D19900515475 /* PostcodesN.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesN.plist; path = Postcodes/PostcodesN.plist; sourceTree = "<group>"; };
+		ED3F212A13C8D19900515475 /* PostcodesO.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesO.plist; path = Postcodes/PostcodesO.plist; sourceTree = "<group>"; };
+		ED3F212B13C8D19900515475 /* PostcodesP.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesP.plist; path = Postcodes/PostcodesP.plist; sourceTree = "<group>"; };
+		ED3F212C13C8D19900515475 /* PostcodesR.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesR.plist; path = Postcodes/PostcodesR.plist; sourceTree = "<group>"; };
+		ED3F212D13C8D19900515475 /* PostcodesS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesS.plist; path = Postcodes/PostcodesS.plist; sourceTree = "<group>"; };
+		ED3F212E13C8D19900515475 /* PostcodesT.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesT.plist; path = Postcodes/PostcodesT.plist; sourceTree = "<group>"; };
+		ED3F212F13C8D19900515475 /* PostcodesU.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesU.plist; path = Postcodes/PostcodesU.plist; sourceTree = "<group>"; };
+		ED3F213013C8D19900515475 /* PostcodesW.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesW.plist; path = Postcodes/PostcodesW.plist; sourceTree = "<group>"; };
+		ED3F213113C8D19900515475 /* PostcodesY.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesY.plist; path = Postcodes/PostcodesY.plist; sourceTree = "<group>"; };
+		ED3F213213C8D19900515475 /* PostcodesZ.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesZ.plist; path = Postcodes/PostcodesZ.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED3F20BD13C8D0A000515475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3F20C513C8D0A000515475 /* UIKit.framework in Frameworks */,
+				ED3F20C713C8D0A000515475 /* Foundation.framework in Frameworks */,
+				ED3F20C913C8D0A000515475 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3F20E013C8D0A000515475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3F20E513C8D0A000515475 /* UIKit.framework in Frameworks */,
+				ED3F20E613C8D0A000515475 /* Foundation.framework in Frameworks */,
+				ED3F20E713C8D0A000515475 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED3F20B513C8D0A000515475 = {
+			isa = PBXGroup;
+			children = (
+				ED3F20FD13C8D0CD00515475 /* Postcode Category */,
+				ED3F20CA13C8D0A000515475 /* PostcodeValidation */,
+				ED3F20EA13C8D0A000515475 /* PostcodeValidationTests */,
+				ED3F20C313C8D0A000515475 /* Frameworks */,
+				ED3F20C113C8D0A000515475 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED3F20C113C8D0A000515475 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED3F20C013C8D0A000515475 /* PostcodeValidation.app */,
+				ED3F20E413C8D0A000515475 /* PostcodeValidationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED3F20C313C8D0A000515475 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED3F20C413C8D0A000515475 /* UIKit.framework */,
+				ED3F20C613C8D0A000515475 /* Foundation.framework */,
+				ED3F20C813C8D0A000515475 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED3F20CA13C8D0A000515475 /* PostcodeValidation */ = {
+			isa = PBXGroup;
+			children = (
+				ED3F20D313C8D0A000515475 /* PostcodeValidationAppDelegate.h */,
+				ED3F20D413C8D0A000515475 /* PostcodeValidationAppDelegate.m */,
+				ED3F20D913C8D0A000515475 /* PostcodeValidationViewController.h */,
+				ED3F20DA13C8D0A000515475 /* PostcodeValidationViewController.m */,
+				ED3F20CB13C8D0A000515475 /* Supporting Files */,
+			);
+			path = PostcodeValidation;
+			sourceTree = "<group>";
+		};
+		ED3F20CB13C8D0A000515475 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED3F20D613C8D0A000515475 /* MainWindow.xib */,
+				ED3F20DC13C8D0A000515475 /* PostcodeValidationViewController.xib */,
+				ED3F20CC13C8D0A000515475 /* PostcodeValidation-Info.plist */,
+				ED3F20CD13C8D0A000515475 /* InfoPlist.strings */,
+				ED3F20D013C8D0A000515475 /* PostcodeValidation-Prefix.pch */,
+				ED3F20D113C8D0A000515475 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED3F20EA13C8D0A000515475 /* PostcodeValidationTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED3F20F113C8D0A000515475 /* PostcodeValidationTests.h */,
+				ED3F20F313C8D0A000515475 /* PostcodeValidationTests.m */,
+				ED3F20EB13C8D0A000515475 /* Supporting Files */,
+			);
+			path = PostcodeValidationTests;
+			sourceTree = "<group>";
+		};
+		ED3F20EB13C8D0A000515475 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED3F211C13C8D18B00515475 /* Postcodes */,
+				ED3F20EC13C8D0A000515475 /* PostcodeValidationTests-Info.plist */,
+				ED3F20ED13C8D0A000515475 /* InfoPlist.strings */,
+				ED3F20F013C8D0A000515475 /* PostcodeValidationTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED3F20FD13C8D0CD00515475 /* Postcode Category */ = {
+			isa = PBXGroup;
+			children = (
+				ED3F20FE13C8D0F900515475 /* NSString+PostcodeValidation.h */,
+				ED3F20FF13C8D0F900515475 /* NSString+PostcodeValidation.m */,
+			);
+			name = "Postcode Category";
+			sourceTree = "<group>";
+		};
+		ED3F211C13C8D18B00515475 /* Postcodes */ = {
+			isa = PBXGroup;
+			children = (
+				ED3F211D13C8D19900515475 /* PostcodesA.plist */,
+				ED3F211E13C8D19900515475 /* PostcodesB.plist */,
+				ED3F211F13C8D19900515475 /* PostcodesC.plist */,
+				ED3F212013C8D19900515475 /* PostcodesD.plist */,
+				ED3F212113C8D19900515475 /* PostcodesE.plist */,
+				ED3F212213C8D19900515475 /* PostcodesF.plist */,
+				ED3F212313C8D19900515475 /* PostcodesG.plist */,
+				ED3F212413C8D19900515475 /* PostcodesH.plist */,
+				ED3F212513C8D19900515475 /* PostcodesI.plist */,
+				ED3F212613C8D19900515475 /* PostcodesK.plist */,
+				ED3F212713C8D19900515475 /* PostcodesL.plist */,
+				ED3F212813C8D19900515475 /* PostcodesM.plist */,
+				ED3F212913C8D19900515475 /* PostcodesN.plist */,
+				ED3F212A13C8D19900515475 /* PostcodesO.plist */,
+				ED3F212B13C8D19900515475 /* PostcodesP.plist */,
+				ED3F212C13C8D19900515475 /* PostcodesR.plist */,
+				ED3F212D13C8D19900515475 /* PostcodesS.plist */,
+				ED3F212E13C8D19900515475 /* PostcodesT.plist */,
+				ED3F212F13C8D19900515475 /* PostcodesU.plist */,
+				ED3F213013C8D19900515475 /* PostcodesW.plist */,
+				ED3F213113C8D19900515475 /* PostcodesY.plist */,
+				ED3F213213C8D19900515475 /* PostcodesZ.plist */,
+			);
+			name = Postcodes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED3F20BF13C8D0A000515475 /* PostcodeValidation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3F20F713C8D0A000515475 /* Build configuration list for PBXNativeTarget "PostcodeValidation" */;
+			buildPhases = (
+				ED3F20BC13C8D0A000515475 /* Sources */,
+				ED3F20BD13C8D0A000515475 /* Frameworks */,
+				ED3F20BE13C8D0A000515475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostcodeValidation;
+			productName = PostcodeValidation;
+			productReference = ED3F20C013C8D0A000515475 /* PostcodeValidation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED3F20E313C8D0A000515475 /* PostcodeValidationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3F20FA13C8D0A000515475 /* Build configuration list for PBXNativeTarget "PostcodeValidationTests" */;
+			buildPhases = (
+				ED3F20DF13C8D0A000515475 /* Sources */,
+				ED3F20E013C8D0A000515475 /* Frameworks */,
+				ED3F20E113C8D0A000515475 /* Resources */,
+				ED3F20E213C8D0A000515475 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED3F20E913C8D0A000515475 /* PBXTargetDependency */,
+			);
+			name = PostcodeValidationTests;
+			productName = PostcodeValidationTests;
+			productReference = ED3F20E413C8D0A000515475 /* PostcodeValidationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED3F20B713C8D0A000515475 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = ED3F20BA13C8D0A000515475 /* Build configuration list for PBXProject "PostcodeValidation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED3F20B513C8D0A000515475;
+			productRefGroup = ED3F20C113C8D0A000515475 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED3F20BF13C8D0A000515475 /* PostcodeValidation */,
+				ED3F20E313C8D0A000515475 /* PostcodeValidationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED3F20BE13C8D0A000515475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3F20CF13C8D0A000515475 /* InfoPlist.strings in Resources */,
+				ED3F20D813C8D0A000515475 /* MainWindow.xib in Resources */,
+				ED3F20DE13C8D0A000515475 /* PostcodeValidationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3F20E113C8D0A000515475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3F20EF13C8D0A000515475 /* InfoPlist.strings in Resources */,
+				ED3F20F213C8D0A000515475 /* PostcodeValidationTests.h in Resources */,
+				ED3F213313C8D19900515475 /* PostcodesA.plist in Resources */,
+				ED3F213413C8D19900515475 /* PostcodesB.plist in Resources */,
+				ED3F213513C8D19900515475 /* PostcodesC.plist in Resources */,
+				ED3F213613C8D19900515475 /* PostcodesD.plist in Resources */,
+				ED3F213713C8D19900515475 /* PostcodesE.plist in Resources */,
+				ED3F213813C8D19900515475 /* PostcodesF.plist in Resources */,
+				ED3F213913C8D19900515475 /* PostcodesG.plist in Resources */,
+				ED3F213A13C8D19900515475 /* PostcodesH.plist in Resources */,
+				ED3F213B13C8D19900515475 /* PostcodesI.plist in Resources */,
+				ED3F213C13C8D19900515475 /* PostcodesK.plist in Resources */,
+				ED3F213D13C8D19900515475 /* PostcodesL.plist in Resources */,
+				ED3F213E13C8D19900515475 /* PostcodesM.plist in Resources */,
+				ED3F213F13C8D19900515475 /* PostcodesN.plist in Resources */,
+				ED3F214013C8D19900515475 /* PostcodesO.plist in Resources */,
+				ED3F214113C8D19900515475 /* PostcodesP.plist in Resources */,
+				ED3F214213C8D19900515475 /* PostcodesR.plist in Resources */,
+				ED3F214313C8D19900515475 /* PostcodesS.plist in Resources */,
+				ED3F214413C8D19900515475 /* PostcodesT.plist in Resources */,
+				ED3F214513C8D19900515475 /* PostcodesU.plist in Resources */,
+				ED3F214613C8D19900515475 /* PostcodesW.plist in Resources */,
+				ED3F214713C8D19900515475 /* PostcodesY.plist in Resources */,
+				ED3F214813C8D19900515475 /* PostcodesZ.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ED3F20E213C8D0A000515475 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED3F20BC13C8D0A000515475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3F20D213C8D0A000515475 /* main.m in Sources */,
+				ED3F20D513C8D0A000515475 /* PostcodeValidationAppDelegate.m in Sources */,
+				ED3F20DB13C8D0A000515475 /* PostcodeValidationViewController.m in Sources */,
+				ED3F210013C8D0F900515475 /* NSString+PostcodeValidation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3F20DF13C8D0A000515475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3F20F413C8D0A000515475 /* PostcodeValidationTests.m in Sources */,
+				ED3F210113C8D0F900515475 /* NSString+PostcodeValidation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED3F20E913C8D0A000515475 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED3F20BF13C8D0A000515475 /* PostcodeValidation */;
+			targetProxy = ED3F20E813C8D0A000515475 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED3F20CD13C8D0A000515475 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3F20CE13C8D0A000515475 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED3F20D613C8D0A000515475 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3F20D713C8D0A000515475 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		ED3F20DC13C8D0A000515475 /* PostcodeValidationViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3F20DD13C8D0A000515475 /* en */,
+			);
+			name = PostcodeValidationViewController.xib;
+			sourceTree = "<group>";
+		};
+		ED3F20ED13C8D0A000515475 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3F20EE13C8D0A000515475 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED3F20F513C8D0A000515475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED3F20F613C8D0A000515475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		ED3F20F813C8D0A000515475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PostcodeValidation/PostcodeValidation-Prefix.pch";
+				INFOPLIST_FILE = "PostcodeValidation/PostcodeValidation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED3F20F913C8D0A000515475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PostcodeValidation/PostcodeValidation-Prefix.pch";
+				INFOPLIST_FILE = "PostcodeValidation/PostcodeValidation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ED3F20FB13C8D0A000515475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PostcodeValidation.app/PostcodeValidation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PostcodeValidationTests/PostcodeValidationTests-Prefix.pch";
+				INFOPLIST_FILE = "PostcodeValidationTests/PostcodeValidationTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		ED3F20FC13C8D0A000515475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PostcodeValidation.app/PostcodeValidation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PostcodeValidationTests/PostcodeValidationTests-Prefix.pch";
+				INFOPLIST_FILE = "PostcodeValidationTests/PostcodeValidationTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED3F20BA13C8D0A000515475 /* Build configuration list for PBXProject "PostcodeValidation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3F20F513C8D0A000515475 /* Debug */,
+				ED3F20F613C8D0A000515475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3F20F713C8D0A000515475 /* Build configuration list for PBXNativeTarget "PostcodeValidation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3F20F813C8D0A000515475 /* Debug */,
+				ED3F20F913C8D0A000515475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED3F20FA13C8D0A000515475 /* Build configuration list for PBXNativeTarget "PostcodeValidationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3F20FB13C8D0A000515475 /* Debug */,
+				ED3F20FC13C8D0A000515475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED3F20B713C8D0A000515475 /* Project object */;
+}
