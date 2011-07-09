@@ -46,6 +46,8 @@
 		ED3F214613C8D19900515475 /* PostcodesW.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F213013C8D19900515475 /* PostcodesW.plist */; };
 		ED3F214713C8D19900515475 /* PostcodesY.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F213113C8D19900515475 /* PostcodesY.plist */; };
 		ED3F214813C8D19900515475 /* PostcodesZ.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3F213213C8D19900515475 /* PostcodesZ.plist */; };
+		ED7D4A4C13C8E06B00EBA8C7 /* PostcodesB2.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED7D4A4A13C8E06B00EBA8C7 /* PostcodesB2.plist */; };
+		ED7D4A4D13C8E06B00EBA8C7 /* PostcodesS2.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED7D4A4B13C8E06B00EBA8C7 /* PostcodesS2.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +105,8 @@
 		ED3F213013C8D19900515475 /* PostcodesW.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesW.plist; path = Postcodes/PostcodesW.plist; sourceTree = "<group>"; };
 		ED3F213113C8D19900515475 /* PostcodesY.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesY.plist; path = Postcodes/PostcodesY.plist; sourceTree = "<group>"; };
 		ED3F213213C8D19900515475 /* PostcodesZ.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesZ.plist; path = Postcodes/PostcodesZ.plist; sourceTree = "<group>"; };
+		ED7D4A4A13C8E06B00EBA8C7 /* PostcodesB2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesB2.plist; path = Postcodes/PostcodesB2.plist; sourceTree = "<group>"; };
+		ED7D4A4B13C8E06B00EBA8C7 /* PostcodesS2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PostcodesS2.plist; path = Postcodes/PostcodesS2.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +223,7 @@
 			children = (
 				ED3F211D13C8D19900515475 /* PostcodesA.plist */,
 				ED3F211E13C8D19900515475 /* PostcodesB.plist */,
+				ED7D4A4A13C8E06B00EBA8C7 /* PostcodesB2.plist */,
 				ED3F211F13C8D19900515475 /* PostcodesC.plist */,
 				ED3F212013C8D19900515475 /* PostcodesD.plist */,
 				ED3F212113C8D19900515475 /* PostcodesE.plist */,
@@ -234,6 +239,7 @@
 				ED3F212B13C8D19900515475 /* PostcodesP.plist */,
 				ED3F212C13C8D19900515475 /* PostcodesR.plist */,
 				ED3F212D13C8D19900515475 /* PostcodesS.plist */,
+				ED7D4A4B13C8E06B00EBA8C7 /* PostcodesS2.plist */,
 				ED3F212E13C8D19900515475 /* PostcodesT.plist */,
 				ED3F212F13C8D19900515475 /* PostcodesU.plist */,
 				ED3F213013C8D19900515475 /* PostcodesW.plist */,
@@ -344,6 +350,8 @@
 				ED3F214613C8D19900515475 /* PostcodesW.plist in Resources */,
 				ED3F214713C8D19900515475 /* PostcodesY.plist in Resources */,
 				ED3F214813C8D19900515475 /* PostcodesZ.plist in Resources */,
+				ED7D4A4C13C8E06B00EBA8C7 /* PostcodesB2.plist in Resources */,
+				ED7D4A4D13C8E06B00EBA8C7 /* PostcodesS2.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,6 +563,7 @@
 				ED3F20F913C8D0A000515475 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED3F20FA13C8D0A000515475 /* Build configuration list for PBXNativeTarget "PostcodeValidationTests" */ = {
 			isa = XCConfigurationList;
@@ -563,6 +572,7 @@
 				ED3F20FC13C8D0A000515475 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

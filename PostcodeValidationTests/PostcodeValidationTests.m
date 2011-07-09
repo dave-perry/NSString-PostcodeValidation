@@ -16,6 +16,7 @@
     NSArray *letterArray = [NSArray arrayWithObjects:
                             @"A",
                             @"B",
+                            @"B2",
                             @"C",
                             @"D",
                             @"E",
@@ -31,6 +32,7 @@
                             @"P",
                             @"R",
                             @"S",
+                            @"S2",
                             @"T",
                             @"U",
                             @"W",
